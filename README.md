@@ -1,5 +1,4 @@
 # Morse Code Translator in C
-<img width="546" height="538" alt="Screenshot 2026-11-02 140826" src="https://github.com/user-attachments/assets/c1623d45-7c45-4276-ae89-59b73188d65e" />
 
 
 I made this program for my C programming course. It's a small command-line tool that turns normal text into Morse code, turns Morse code back into text, and even quizzes you so you can learn the code yourself.
@@ -88,14 +87,16 @@ Here is a full run of the program, step by step. All screenshots are from my own
 ### Step 1: Convert text to Morse code
 
 Choose option **1** from the menu and type any text. I typed my name, *Harshit*. The program prints the Morse code and counts the dots and dashes (16 dots and 3 dashes).
+<img width="546" height="538" alt="Screenshot 2026-11-02 140826" src="https://github.com/user-attachments/assets/34574e22-9915-40d8-9e1e-5ab654208937" />
 
-![Text to Morse code](screenshots/01-text-to-morse.png)
+
 
 ### Step 2: Convert Morse code back to text
 
 Choose option **2** and paste the Morse code from the previous step. Put a space between letters and a `/` between words. The program decodes it back to **HARSHIT**.
+<img width="506" height="577" alt="Screenshot 2026-11-02 140850" src="https://github.com/user-attachments/assets/1090506e-5c0a-4a80-976c-4ecd8c17d51b" />
 
-![Decoding Morse code back to text, followed by the Morse chart](screenshots/02-decode-and-chart.png)
+
 
 ### Step 3: Look up the Morse chart
 
@@ -107,13 +108,15 @@ Choose option **3** to see the full table for A to Z and 0 to 9. This is the sam
 
 Choose option **4**. The program picks 5 random characters and asks for the Morse code of each one. It tells you right away whether you were correct and shows your score at the end.
 
-![Practice quiz](screenshots/03-quiz.png)
+
+<img width="442" height="401" alt="Screenshot 2026-11-02 140911" src="https://github.com/user-attachments/assets/7e20e824-f884-4d51-9a9c-0f08c2b7f2d5" />
+
 
 ### Step 5: Exit
 
 Choose option **5** to close the program. It says goodbye in Morse code: `... . . / -.-- --- ..- / ... --- --- -.` (SEE YOU SOON).
 
-![Exiting the program](screenshots/04-exit.png)
+<img width="446" height="232" alt="Screenshot 2026-11-02 140928" src="https://github.com/user-attachments/assets/5cab77de-587c-4d02-a660-2905a4812b0f" />
 
 ---
 
