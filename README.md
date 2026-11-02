@@ -272,6 +272,6 @@ The quiz uses `rand()` to pick a random position in the table, shows that charac
 
 ## About me
 
-Made by **[Your Name]**, [Your Course / Year], [Your College Name].
+Made by **[Harshit]**, [B.tech CSE / First year], [Chandigarh University].
 
 Feel free to download the code, try it out and suggest improvements.
