@@ -11,12 +11,13 @@ I picked Morse code because it needs exactly the things we studied in class: arr
 1. [What the program can do](#what-the-program-can-do)
 2. [A quick look at Morse code](#a-quick-look-at-morse-code)
 3. [Running it on your computer](#running-it-on-your-computer)
-4. [See it in action](#see-it-in-action)
-5. [How the code works](#how-the-code-works)
-6. [C concepts used](#c-concepts-used)
-7. [Problems I ran into](#problems-i-ran-into)
-8. [Limitations](#limitations)
-9. [Ideas for later](#ideas-for-later)
+4. [Step-by-step walkthrough (screenshots)](#step-by-step-walkthrough-screenshots)
+5. [More sample outputs](#more-sample-outputs)
+6. [How the code works](#how-the-code-works)
+7. [C concepts used](#c-concepts-used)
+8. [Problems I ran into](#problems-i-ran-into)
+9. [Limitations](#limitations)
+10. [Ideas for later](#ideas-for-later)
 
 ---
 
@@ -78,9 +79,45 @@ If you use Code::Blocks, Dev-C++ or a similar editor, just open `main.c`, then b
 
 ---
 
-## See it in action
+## Step-by-step walkthrough (screenshots)
 
-These are real outputs from my program.
+Here is a full run of the program, step by step. All screenshots are from my own computer.
+
+### Step 1: Convert text to Morse code
+
+Choose option **1** from the menu and type any text. I typed my name, *Harshit*. The program prints the Morse code and counts the dots and dashes (16 dots and 3 dashes).
+
+![Text to Morse code](screenshots/01-text-to-morse.png)
+
+### Step 2: Convert Morse code back to text
+
+Choose option **2** and paste the Morse code from the previous step. Put a space between letters and a `/` between words. The program decodes it back to **HARSHIT**.
+
+![Decoding Morse code back to text, followed by the Morse chart](screenshots/02-decode-and-chart.png)
+
+### Step 3: Look up the Morse chart
+
+Choose option **3** to see the full table for A to Z and 0 to 9. This is the same table the program uses internally. It's handy for learning or checking a letter.
+
+(The chart is at the bottom of the screenshot above.)
+
+### Step 4: Take the practice quiz
+
+Choose option **4**. The program picks 5 random characters and asks for the Morse code of each one. It tells you right away whether you were correct and shows your score at the end.
+
+![Practice quiz](screenshots/03-quiz.png)
+
+### Step 5: Exit
+
+Choose option **5** to close the program. It says goodbye in Morse code: `... . . / -.-- --- ..- / ... --- --- -.` (SEE YOU SOON).
+
+![Exiting the program](screenshots/04-exit.png)
+
+---
+
+## More sample outputs
+
+These are a few extra outputs from my program.
 
 ### Text to Morse
 
@@ -235,6 +272,6 @@ The quiz uses `rand()` to pick a random position in the table, shows that charac
 
 ## About me
 
-Made by **[Harshit]**, [B.tech cse, First year], [Chandigarh University].
+Made by **[Your Name]**, [Your Course / Year], [Your College Name].
 
 Feel free to download the code, try it out and suggest improvements.
