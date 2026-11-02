@@ -1,4 +1,6 @@
 # Morse Code Translator in C
+<img width="546" height="538" alt="Screenshot 2026-11-02 140826" src="https://github.com/user-attachments/assets/c1623d45-7c45-4276-ae89-59b73188d65e" />
+
 
 I made this program for my C programming course. It's a small command-line tool that turns normal text into Morse code, turns Morse code back into text, and even quizzes you so you can learn the code yourself.
 
